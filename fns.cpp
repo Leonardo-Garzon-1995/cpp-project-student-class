@@ -40,7 +40,7 @@ std::string Student::get_info() const {
     result += "  Age: " + std::to_string(age) + ", \n";
     result += "  Scores: [";
 
-    for (size_t i = 0; i < scores.size(); i++) {
+    for (int i = 0; i < scores.size(); i++) {
         result += std::to_string(scores[i]);
         if (i < scores.size() - 1) result += ", ";
     }
