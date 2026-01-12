@@ -10,6 +10,7 @@ class Student {
     std::vector<double> scores;
 
     public:
+        Student(const std::string& first_name, const std::string& last_name, int age, std::vector<double> scores);
         std::string get_name();
         int get_age();
         void get_scores();
